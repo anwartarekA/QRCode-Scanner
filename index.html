@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRcode generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- create header for QRcode genrator -->
+    <header>
+        QRcode generator
+    </header>
+    <main>
+        <div class="content_text">
+            <h1>QRcode Generator</h1>
+            <p class="p1">QR code is a simple application makes users to access websites quickly</p>
+            <p class="p2">You should type your<mark>url</mark> and select the suitable size for your Qr</p>
+          <form id="generate_form">
+            <input type="url" class="url" placeholder="Enter your url" >
+            <select  id="size">
+                <option value="100">100*100</option>
+                <option value="200">200*200</option>
+                <option value="300">300*300</option>
+                <option value="400" selected>400*400</option>
+                <option value="500">500*500</option>
+                <option value="600">600*600</option>
+                <option value="700">700*700</option>
+                <option value="800">800*800</option>
+            </select>
+            <input type="submit" value="Generate QR code" class="btn">
+          </form>
+        </div>
+        <div class="img">
+            <img src="images/scan.jpeg" alt="picture">
+        </div>
+    </main>
+    <!-- spinner -->
+    <div class="spinner"></div>
+    <div class="loading">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+    </div>
+    <div id="qrcode"></div>
+    <!-- QRCode library  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+</html>
