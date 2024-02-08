@@ -27,13 +27,15 @@
 + steps:-
 ```
 <ol>
-  <li><img src="" width=800 height=400></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  
+  <li><img src="Screenshot (80).png" width=800 height=400 align="center"></li>
+  <li><img src="Screenshot (81).png" width=800 height=400  align="center"></li>
+  <li><img src="Screenshot (82).png" width=800 height=400  align="center"></li>
+  <li><img src="Screenshot (83).png" width=800 height=400  align="center"></li>
+  <li><img src="Screenshot (84).png" width=800 height=400 align="center"></li>
+  <li><img src="Screenshot (85).png" width=800 height=400 align="center"></li>
+  <li><img src="Screenshot_2024-02-08-00-50-14-56_680d03679600f7af0b4c700c6b270fe7.jpg" width=800 height=400  align="center"></li>  
 </ol>
+<br>
+<pre>try it...<code><a href="https://anwartareka.github.io/QRCode-Scanner/">click</a></code></pre>
+ 
+
